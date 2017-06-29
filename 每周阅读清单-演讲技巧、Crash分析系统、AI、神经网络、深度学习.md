@@ -43,6 +43,31 @@
 
 ![](./Images/wk3/9.png)
 
+### [iOS Crash拦截方案](https://github.com/chenfanfang/AvoidCrash)
+
+一个已经发布到AppStore上的App，最忌讳的就是崩溃问题。为什么在开发阶段或者测试阶段都不会崩溃，而发布到AppStore上就崩溃了呢？究其根源，最主要的原因就是数据的错乱。特别是 服务器返回数据的错乱，将严重影响到我们的App。
+这个方案利用runtime技术对一些常用并且容易导致崩溃的方法进行处理，可以有效的防止崩溃。
+
+目前已经支持对KVC赋值、NSAttributedString、NSMutableAttributedString、NSMutableString、NSString、NSMutableDictionary、NSDictionary、NSMutableArray、NSArray等场景类崩溃的拦截。
+
+### [提高驾驶技术：用GAN去除(爱情)动作片中的马赛克和衣服](https://zhuanlan.zhihu.com/p/27199954)
+
+本文中作者给小伙伴们发了两个大福利，教会了大家看动作片的新姿势：
+- 去除(爱情)动作片中的马赛克
+- 给(爱情)动作片中的女孩穿(tuo)衣服
+
+先直接看一下效果，再贴各种理论知识。
+
+去马赛克
+
+![](./Images/wk3/11.png)
+
+穿衣服
+
+![](./Images/wk3/12.jpg)
+
+文中介绍了具体怎么实现去马赛克和穿衣服的相关背景知识，包括生成式模型、SRGAN、pix2pix、PatchGAN、对偶学习，有兴趣的童鞋可以请点击下方的“阅读原文”获取本文的带链接版本。
+
 ### [The neural network zoo](http://www.asimovinstitute.org/neural-network-zoo/)
 
 神经网络最近火的一塌糊涂，各种架构的神经网络层出不穷，同时也涌现了大量缩写名词：DCIGN，BiLSTM，DCGAN，让人感觉有点懵逼。因此作者总结盘点各种架构的神经网络，如下图：
@@ -77,10 +102,19 @@
 
 具体细节可以参考Elman, Jeffrey L.的论文[ Finding structure in time ](https://crl.ucsd.edu/~elman/Papers/fsit.pdf)
 
-### 参考资料
-- http://www.asimovinstitute.org/neural-network-zoo/
-- http://www.asimovinstitute.org/neural-network-zoo-prequel-cells-layers/
-- https://github.com/Tencent/mars
-- http://data.qq.com/
-- http://mta.qq.com/mta/
-- http://mp.weixin.qq.com/s/305V7bDTJb8jOInz9l_xTA
+### [谷歌发布TPU研究论文，神经网络专用处理器是怎样炼成的？](https://zhuanlan.zhihu.com/p/26198901)
+
+搜索、街景、照片、翻译，这些Google提供的服务，都使用了Google的TPU（张量处理器）来加速背后的神经网络计算。去年Google推出TPU并在近期对这一芯片的性能和架构进行了详细的研究。简单的结论是：TPU与同期的CPU和GPU相比，可以提供15-30倍的性能提升，以及30-80倍的效率（性能/瓦特）提升。这意味着，Google的服务既可以大规模运行于最先进的神经网络，而且可以把成本控制在可接受的程度上。以下的内容，将深入解读Google TPU中的技术，并且讨论如何实现更为出色的性能。
+
+矩阵乘法是训练一个神经网络计算量最大的部分，实际业务中需要多少次乘法运算？2016年7月，Google团队调查了实际业务中，六个有代表性的神经网络应用，每个神经网络中的权重数量从500万到1亿不等。每一个预测，都需要许多步的输入数据和权重矩阵相乘，并输入到激活函数中。总而言之，计算量超大。作为优化的第一步，Google应用了一种称为量化的技术进行整数运算，而不是在CPU或者GPU上对所有数学工作进行32位或者16位浮点运算。这能减少所需的内存容量和计算资源。
+
+TPU的结构图如下：
+
+![](./Images/wk3/10.png)
+
+TPU包括以下计算资源：
+- 矩阵乘法单元(MUX)：65,536个8位乘法和加法单元，运行矩阵计算
+- 统一缓冲(UB)：作为寄存器工作的24MB容量SRAM
+- 激活单元(AU)：硬件连接的激活函数
+
+TPU性能强劲的秘诀，是因为它专注于神经网络推断。这使得量化选择、CISC指令集、矩阵处理器和最小设计都成为可能。神经网络正推动计算模式的转变，Google预计未来几年中，TPU将成为快速、智能和价格实惠的重要芯片。
