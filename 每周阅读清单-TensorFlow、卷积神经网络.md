@@ -42,6 +42,6 @@ VirtualAPK 是滴滴出行自研的一款优秀的插件化框架，滴滴表示
 
 ### [How CNNs Work](https://github.com/brohrer/public-hosting/raw/master/How_CNNs_work.pdf)
 
-这是我看过的介绍卷积神经网络最通俗易懂的一个资料。作者通过一个简单的例子：识别一个图片是X还是O，介绍了卷积神经网络的方方面面。
+这是我看过的介绍卷积神经网络最通俗易懂的一个资料。作者通过一个简单的例子：识别一个图片是X还是O，介绍了卷积神经网络的方方面面。
 
 ![](./Images/wk4/1.png)
