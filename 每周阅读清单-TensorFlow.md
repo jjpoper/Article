@@ -36,7 +36,7 @@
 
 但是上面训练的神经网络做不到这些。它认为「8」出现在图片的不同位置，就是不一样的东西。它不能理解「物体出现在图片的不同位置还是同一个物体」这个概念。这意味着在每种可能出现的位置上，它必须重新学习识别各种物体。我们需要让我们的神经网络理解平移不变性（translation invariance）这个概念 —— 也就是说，无论「8」出现在图片的哪里，它都是「8」。
 
-卷积神经网络是怎么做的呢？
+卷积神经网络是怎么做的呢？
 
 1. 把图片分解成部分重合的小图块
 
@@ -84,7 +84,7 @@
 
 他们找了6名心脏病专家，分别从测试集的心电图中识别心律不齐，又以3名专家会诊的结果作为标准，将人类识别的结果、算法识别的结果与之进行比较。他们发现，算法的准确率与受过专业训练的人类心脏病专家相当，在很多情况下甚至比人类更好。
 
-论文在[这里](https://arxiv.org/pdf/1707.01836.pdf), 项目主页在[这里](https://stanfordmlgroup.github.io/projects/ecg/)
+论文在[这里](https://arxiv.org/pdf/1707.01836.pdf), 项目主页在[这里](https://stanfordmlgroup.github.io/projects/ecg/)
 
 ### 参考资料
 - https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa
