@@ -1,3 +1,22 @@
+### [Android 组件化 —— 路由设计最佳实践](http://www.jianshu.com/p/8a3eeeaf01e8)
+
+### [深度学习进化编年大事记](http://mp.weixin.qq.com/s/u8L69yK5MJUXPgQ7419XHg)
+
+在过去的60年里，人类在人工智能、机器学习、深度学习领域有了不小的突破，我们可以将这些进展整理成一条粗略的时间线：
+
+- 1960年：浅层神经网络
+- 1960-70年：反向传播出现
+- 1974-80年：第一次人工智能的冬天来临
+- 1980年：出现卷积的概念
+- 1987-93年：第二次人工智能冬天再次降临
+- 1990年：无监督学习问世
+- 1990-2000年：监督深度学习重新流行
+- 2006年-至今 现代深度学习
+
+现在，深度学习不经意间就会出现在我们的生活中——它是谷歌的声音和图像识别，是Netflix和亚马逊的推荐引擎，是苹果的Siri，是电子邮件和短信的自动回复，是智能聊天机器人……
+
+深度学习的下一步发展还不能确定，唯一能够肯定的是，未来是有趣的。
+
 ### [Machine Learning is Fun! Part 3: Deep Learning and Convolutional Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721)
 
 这篇文章非常详细地介绍了卷积神经网络以及如何用它识别鸟类的图片。首先是通过最经典的手写数字识别，引入了“万物皆数”的概念，对于神经网络来说，不管你输入的对象是什么最终都会被转成一堆数字。
@@ -88,9 +107,3 @@
 
 ### 参考资料
 - https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa
-- https://medium.com/@ageitgey/machine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a
-- https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78
-- https://medium.com/@ageitgey/machine-learning-is-fun-part-2-a26a10b68df3
-- https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
-- http://karpathy.github.io/2016/05/31/rl/
-- https://github.com/tflearn/tflearn/tree/master/examples#tflearn-examples
