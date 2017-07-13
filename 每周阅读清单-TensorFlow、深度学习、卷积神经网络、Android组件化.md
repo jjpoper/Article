@@ -1,3 +1,7 @@
+### [你必须理解的计算机核心概念](http://mp.weixin.qq.com/s/XmHhlZzpYbJWW_m5NMPqEw)
+
+计算机学科中有很多概念， 例如编码（原码，补码，反码）， 虚拟内存， 文件， IO,  编译，链接，分组交换，关系， 事务，范式， Hash, 加密。。。等等，本文试图讲一下最重要的核心集合，从这个集合当中就可以变换出计算机编程的各种魔法。
+
 ### [Android 组件化 —— 路由设计最佳实践](http://www.jianshu.com/p/8a3eeeaf01e8)
 
 这篇文章会告诉你
@@ -22,6 +26,18 @@
 现在，深度学习不经意间就会出现在我们的生活中——它是谷歌的声音和图像识别，是Netflix和亚马逊的推荐引擎，是苹果的Siri，是电子邮件和短信的自动回复，是智能聊天机器人……
 
 深度学习的下一步发展还不能确定，唯一能够肯定的是，未来是有趣的。
+
+### [Google发布神经机器翻译教程，带你从零开始搭建NMT系统](https://github.com/tensorflow/nmt)
+
+Google在GitHub上发布了一份TensorFlow神经机器翻译教程，带着读者充分理解seq2seq，并从零开始构建翻译模型。
+
+seq2seq直译成汉语是“序列到序列”，是机器翻译中一种常用方法，能够用深层神经网络捕捉句子意义。
+
+Google Translate就用了seq2seq，Google开源的tf-seq2seq、哈佛大学的OpenNMT，都是基于seq2seq的框架。
+
+Google的这份教程，从神经机器翻译的背景知识讲起，然后详解了基础系统的代码细节，再讲到NMT系统处理长句的关键：注意力机制。最后，这份教程还详细介绍了如何复制Google神经机器翻译系统(GNMT)的关键功能，并在多个GPU上进行训练。
+
+![](./Images/wk5/13.jpg)
 
 ### [Machine Learning is Fun! Part 3: Deep Learning and Convolutional Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721)
 
