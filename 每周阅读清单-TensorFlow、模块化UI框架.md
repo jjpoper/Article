@@ -2,7 +2,7 @@
 
 ### [WKWebView](https://blog.smallfan.net/2017/06/wkwebview/)
 
-这篇文章首先从内存、加载速度等角度对比分析了WKWebView和UIWebView的表现，然后重点介绍了WKWebView的重要特性、常见的坑已经应对方案，非常不错的一篇文章。
+这篇文章首先从内存、加载速度等角度对比分析了WKWebView和UIWebView的表现，然后重点介绍了WKWebView的重要特性、常见的坑已经应对方案，非常不错的一篇文章。
 
 ### [Hybrid APP架构设计思路](http://itindex.net/detail/55039-hybrid-app-%E6%9E%B6%E6%9E%84)
 
