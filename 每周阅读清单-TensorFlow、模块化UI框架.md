@@ -45,3 +45,11 @@
 ### [How we're teaching computers to understand pictures](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures#t-63274)
 
 推荐一个TED演讲视频，李飞飞教授在视频中介绍计算机视觉与机器学习领域的最新进展。
+
+### [VGG论文导读+Tensorflow实现+Fine-tuning参数微调](https://www.youtube.com/watch?v=94_iXLlUYo8&list=PLnUknG7KBFzrI-ixy1R9iyFb7iuCBLSMW)
+
+Youtube上的一组视频，需要梯子才能访问。
+
+### [人人都可以做深度学习应用：入门篇](https://zhuanlan.zhihu.com/p/25482889)
+
+深度学习和TensorFlow的入门文章，最后还介绍了和业务场景结合的demo：预测用户是否是QQ超级会员身份，值得一看。
