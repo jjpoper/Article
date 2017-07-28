@@ -16,13 +16,15 @@
 
 ### [ImageNet这八年：李飞飞和被她改变的AI世界](http://mp.weixin.qq.com/s/XfZpmw51oKqV4NlAQvvRxQ)
 
+ImageNet发展历程，以及计算机视觉的最新进展
+
 ### [An end to end implementation of a Machine Learning pipeline](https://spandan-madan.github.io/DeepLearningProject/)
 
 哈佛大学的一位助教写的一篇关于机器学习的入门文章，与别的文章不一样。作者是希望通过一个具体的实例介绍，手把手地教你怎么实现机器学习的Pipeline：怎么把一个现成的算法应用到你自己的数据集上？怎么获取数据集？怎么选择合适的算法？怎么评估你模型的效率？
 
 文中介绍了一个基于视频帧和文本数据做电影分类的项目，主要有以下几个部分：
 
-- 获取数据集 
+- 获取数据集
 - 数据预处理
 - 非深度机器学习模型 : 概率与最大间隔分类器
 - 深度学习背后的直观理论
