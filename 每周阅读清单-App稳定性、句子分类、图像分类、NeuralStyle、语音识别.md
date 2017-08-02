@@ -53,7 +53,7 @@ TensorFlow是一个深度学习库，使用这一框架，可以用来构建和�
 
 ![](./Images/wk8/3.png)
 
-#### 项目四：[图像分类/物体识别](https://github.com/akshaypai/tfClassifier)
+#### 项目四：[图像分类/物体识别](https://github.com/akshaypai/tfClassifier)
 
 图像分类，也就是训练系统识别猫猫狗狗，或者车道、海滩、天际线等场景。计算机视觉是一个范围巨大的领域，从面部识别到情感识别，甚至可以进行视觉气体泄漏检测。虽然实现流程各异，但底层系统是相通的。
 
