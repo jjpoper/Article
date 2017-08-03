@@ -1,3 +1,32 @@
+### [当你在浏览器中输入 google.com 并且按下回车之后发生了什么](https://github.com/skyline75489/what-happens-when-zh_CN)
+
+这是一道古老的面试题：“当你在浏览器中输入 google.com 并且按下回车之后发生了什么？”。本文从一下几个角度展开了讨论，值得一看。
+
+- 按下"g"键
+- 回车键按下
+- 产生中断[非USB键盘]
+- (Windows)一个 WM_KEYDOWN 消息被发往应用程序
+- (Mac OS X)一个 KeyDown NSEvent被发往应用程序
+- (GNU/Linux)Xorg 服务器监听键码值
+- 解析URL
+- 输入的是 URL 还是搜索的关键字？
+- 转换非 ASCII 的 Unicode 字符
+- 检查 HSTS 列表
+- DNS 查询
+- ARP 过程
+- 使用套接字
+- TLS 握手
+- HTTP 协议
+- HTTP 服务器请求处理
+- 浏览器背后的故事
+- 浏览器
+- HTML 解析
+- CSS 解析
+- 页面渲染
+- GPU 渲染
+- Window Server
+- 后期渲染与用户引发的处理
+
 ## 移动开发
 
 ### [iOS App 稳定性指标及监测](http://mp.weixin.qq.com/s/gibRDdfkf7aL5-jUfqo7BA)
