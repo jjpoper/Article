@@ -46,11 +46,23 @@
 
 上面介绍了怎么搭建开发环境，创建并运行了第一个RN工程，但实际项目应用中，通常是原生和RN混合使用：也就是某些页面或业务场景会使用RN开发，其他的页面继续用原生或者H5的方式开发。
 
-### 开发、调试
-1. IDE选择
-2. 调试
-3. Hot load
-4. ATS对local server的影响
+把RN框架集成到你现有的项目中比较简单，粗暴一点的方法是直接把RN框架源码拖到你的工程中，但是这样不方便模块化管理，后续需要扩展或升级RN框架都不方便，所以我们是通过Pod的方式集成RN框架的。
+
+RN框架的源码在工程目录中node_modules下react-native文件中，可以把这个文件直接拷贝到你的工程目录中，如下图：
+
+![](./Images/rn1/5.png)
+
+RN框架本身也是也是使用Pods管理的，react-native目录下有一个React.podspec文件，里面定义了RN框架各模块的subspec，可以直接在你工程的Podfile中直接引用。
+
+![](./Images/rn1/6.png)
+
+pod install以后，就可以把RN框架集成到你的工程了。
+
+![](./Images/rn1/7.png)
+
+RN框架集成成功后，就可以在你的项目中使用RN了，iOS平台上RN最终会渲染到RCTRootView，所以向对应ViewController 添加RCTRootView就可以展现RN页面了。
+
+![](./Images/rn1/8.png)
 
 ## Android篇
 
