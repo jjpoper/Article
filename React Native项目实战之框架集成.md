@@ -11,23 +11,23 @@
 - npm install -g react-native-cli
 - gem install cocoapods
 
-以上分别是安装Node、watchman、React Native命令行工具和CocoaPods的命令，安装过程中如果提示权限不够，在对应的命令前加上sudo即可。
+以上分别是安装Node、watchman、React Native命令行工具和CocoaPods的命令，安装过程中如果提示权限不够，在对应的命令前加上sudo即可。
 
-如果搭建环境过程中出现问题，可以看一下参考目录中的第一篇文章。
+如果搭建环境过程中出现问题，可以看一下参考目录中的第一篇文章。
 
 ### 初识RN
 
 1. 创建项目
 
-&emsp;&emsp;RN项目创建比较简单，执行执行 ***react-native init <项目名字>*** 即可。
+&emsp;&emsp;RN项目创建比较简单，执行 ***react-native init <项目名字>*** 即可。
 
 ![](./Images/rn1/1.png)
 
 2. 工程目录结构
 
-&emsp;&emsp;
+&emsp;&emsp;
 
-&emsp;&emsp;![](./Images/rn1/2.png)
+![](./Images/rn1/2.png)
 
 3. RN项目运行
 
